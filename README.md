@@ -12,7 +12,7 @@ Para simular un pago exitoso con PayPal, asegúrate de estar en el entorno sandb
 
 Correo electrónico de prueba: 
 # sb-cvukf32522510@business.example.com
-# Contraseña de prueba: 
+Contraseña de prueba: 
 ## Hs_wv5>(
 
 Número de tarjeta: 4111 1111 1111 1111
