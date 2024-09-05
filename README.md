@@ -10,8 +10,10 @@ El botón de PayPal se integra en la página carrito.html, y la simulación de p
 ## Datos de Prueba
 Para simular un pago exitoso con PayPal, asegúrate de estar en el entorno sandbox de PayPal, donde puedes usar las credenciales de prueba proporcionadas por PayPal. Aquí están los datos de prueba recomendados para la simulación:
 
-# Correo electrónico de prueba: sb-cvukf32522510@business.example.com
-# Contraseña de prueba: Hs_wv5>(
+Correo electrónico de prueba: 
+# sb-cvukf32522510@business.example.com
+# Contraseña de prueba: 
+## Hs_wv5>(
 
 Número de tarjeta: 4111 1111 1111 1111
 Fecha de vencimiento: cualquier fecha futura
