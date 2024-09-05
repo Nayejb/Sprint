@@ -15,9 +15,11 @@ Correo electrónico de prueba:
 Contraseña de prueba: 
 ## Hs_wv5>(
 
-Número de tarjeta: ## 4111 1111 1111 1111
-Fecha de vencimiento: ## cualquier fecha futura
-CVV: ## cualquier número de 3 dígitos        
+Número de tarjeta: 4111 1111 1111 1111
+
+Fecha de vencimiento: cualquier fecha futura
+
+CVV: cualquier número de 3 dígitos        
 Estos datos te permitirán realizar pagos simulados sin procesar transacciones reales.
 
 ## Previsualización
