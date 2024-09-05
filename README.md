@@ -19,7 +19,8 @@ Número de tarjeta: 4111 1111 1111 1111
 
 Fecha de vencimiento: cualquier fecha futura
 
-CVV: cualquier número de 3 dígitos        
+CVV: cualquier número de 3 dígitos 
+
 Estos datos te permitirán realizar pagos simulados sin procesar transacciones reales.
 
 ## Previsualización
