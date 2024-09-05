@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion N</title>
+    <link rel="icon" href="images/logoN.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Enlace Api Paypal -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AXG7oyngDBFyqgy-01WP16SVzkN2kirQpuGMWf8MkjVzSuOD76XbXnYOdx_psNNO-tuIEDokE7C2py43"></script>
+
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FASHION N</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link position-relative" href="productos.html">
+                        <i class="bi bi-cart"></i> Carrito
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cart-count">0</span>
+                    </a>
+                    
+                <button id="empty-cart-btn" href="productos.html" class="btn btn-danger mb-3">Vaciar Carrito</button>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acercade.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos/Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-success ms-2" href="https://wa.me/+593960524915" target="_blank" role="button">Solicitar asesoría</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+   <!-- Sección del carrito -->
+<div class="container my-5 text-center">
+    <h2 class="mb-4">Carrito de Compras</h2>
+    <div class="row justify-content-center">
+        <!-- Aquí se mostrarán los productos añadidos al carrito -->
+        <div class="col-md-8">
+            <ul id="cart-items" class="list-unstyled mb-4">
+                <!-- Los productos del carrito se agregarán aquí mediante JavaScript -->
+            </ul>
+            
+            <div class="mb-3">
+                <strong>Total a Pagar: $<span id="cart-total">0.00</span></strong>
+            </div>
+
+            <div class="centrar">
+                
+                <a id="paypal-button-container" href="" class="btn btn-success">Proceder al Pago</a> <!-- Cambia la URL a tu API de pruebas -->
+                <div id="paypal-button-container"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
